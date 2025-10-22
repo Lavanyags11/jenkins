@@ -67,7 +67,7 @@ pipeline {
 
     stage('Update Deployment File') {
       environment {
-        GIT_REPO_NAME = "Jennkins-manifest"
+        GIT_REPO_NAME = "Jenkins-manifest"
         GIT_USER_NAME = "Lavanyags11"
       }
       steps {
